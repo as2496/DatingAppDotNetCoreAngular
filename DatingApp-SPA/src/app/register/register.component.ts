@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import {AuthService} from '../_services/auth.service';
-import { from } from 'rxjs';
+
 
 @Component({
   selector: 'app-register',
@@ -20,8 +20,7 @@ export class RegisterComponent implements OnInit {
       console.log('registration scuccessful');
     }, error => {
       console.log(error);
-    }
-    );
+    });
   }
   cancel(){
     this.cancelRegister.emit(false);
