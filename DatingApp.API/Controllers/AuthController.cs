@@ -45,6 +45,7 @@ namespace DatingApp.API.Controllers
         [HttpPost("login")]
         public async Task<ActionResult> Login(UserForLoginDto userForLoginDto)
         {
+            throw new Exception("This is a created error");
             var userFromRepo = await _repo.Login(userForLoginDto.UserName.ToLower(), userForLoginDto.Password);
             if(userFromRepo == null){
                 return Unauthorized();
