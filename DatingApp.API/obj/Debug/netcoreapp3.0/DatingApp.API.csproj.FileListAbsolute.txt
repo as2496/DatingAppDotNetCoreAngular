@@ -42,3 +42,11 @@
 /Users/anushreesaha/Projects/UdemyAngularDotNetCoreApp/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/anushreesaha/Projects/UdemyAngularDotNetCoreApp/DatingApp/DatingApp.API/obj/Debug/netcoreapp3.0/DatingApp.API.csproj.CopyComplete
 /Users/anushreesaha/Projects/UdemyAngularDotNetCoreApp/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/anushreesaha/Projects/UdemyAngularDotNetCoreApp/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/anushreesaha/Projects/UdemyAngularDotNetCoreApp/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Logging.dll
+/Users/anushreesaha/Projects/UdemyAngularDotNetCoreApp/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Tokens.dll
+/Users/anushreesaha/Projects/UdemyAngularDotNetCoreApp/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/anushreesaha/Projects/UdemyAngularDotNetCoreApp/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/anushreesaha/Projects/UdemyAngularDotNetCoreApp/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Protocols.dll
+/Users/anushreesaha/Projects/UdemyAngularDotNetCoreApp/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/anushreesaha/Projects/UdemyAngularDotNetCoreApp/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
