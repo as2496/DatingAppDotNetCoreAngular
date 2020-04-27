@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { UserService } from '../_services/user.service';
-import { AlertifyService } from '../_services/alertify.service';
-import { User } from '../_model/user';
+import { User } from 'src/app/_model/user';
+import { UserService } from 'src/app/_services/user.service';
+import { AlertifyService } from 'src/app/_services/alertify.service';
 
 @Component({
-  selector: 'app-lists',
-  templateUrl: './lists.component.html',
-  styleUrls: ['./lists.component.css']
+  selector: 'app-member-lists',
+  templateUrl: './member-lists.component.html',
+  styleUrls: ['./member-lists.component.css']
 })
-export class ListsComponent implements OnInit {
+export class MemberListsComponent implements OnInit {
   users: User[];
 
   constructor(private userService: UserService, private alertify: AlertifyService) { }
