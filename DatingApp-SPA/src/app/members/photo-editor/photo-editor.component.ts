@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Photo } from 'src/app/_model/photo';
 import { FileUploader } from 'ng2-file-upload';
 import { AuthService } from 'src/app/_services/auth.service';
-import { environment } from '../../../environments/environment';
+//import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-photo-editor',
@@ -16,7 +16,7 @@ export class PhotoEditorComponent implements OnInit {
   uploader: FileUploader;
   hasBaseDropZoneOver: false;
   response: string;
-  baseUrl: environment.apiUrl;
+  //baseUrl: environment.apiUrl;
 
   constructor(private authservice: AuthService){
   }
@@ -30,7 +30,7 @@ export class PhotoEditorComponent implements OnInit {
   }
   initializeUploader(){
     this.uploader = new FileUploader({
-      url: this.baseUrl + 'users/' + this.authservice.decodedToken.nameid + '/photos',
+      url: 'https://4000/',//this.baseUrl + 'users/' + this.authservice.decodedToken.nameid + '/photos',
       authToken: 'Bearer' + localStorage.getItem('token'),
       isHTML5: true,
       allowedFileType: ['image'],
