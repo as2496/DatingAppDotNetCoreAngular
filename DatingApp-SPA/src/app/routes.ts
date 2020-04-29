@@ -3,11 +3,11 @@ import { HomeComponent } from './home/home.component';
 import { MessagesComponent } from './messages/messages.component';
 import { ListsComponent } from './lists/lists.component';
 import { AuthGuard } from './_guards/auth.guard';
-import { MemberListsComponent } from 'src/members/member-lists/member-lists.component';
-import { MemberDetailComponent } from 'src/members/member-detail/member-detail.component';
+import { MemberListsComponent } from 'src/app/members/member-lists/member-lists.component';
+import { MemberDetailComponent } from 'src/app/members/member-detail/member-detail.component';
 import { MemberDetailsResolver } from './_resolver/member-detail.resolver';
 import { MemberListResolver } from './_resolver/member-list.resolver';
-import { MemberEditComponent } from 'src/members/member-edit/member-edit.component';
+import { MemberEditComponent } from 'src/app/members/member-edit/member-edit.component';
 import { MemberEditResolver } from './_resolver/member-edit.resolver';
 import { PreventUnsavedChanges } from './_guards/prevent-unsaved-changes.guard';
 
